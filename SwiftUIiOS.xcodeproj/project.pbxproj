@@ -19,6 +19,7 @@
 		635497BB2742538100AC96A5 /* AppetizerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635497BA2742538100AC96A5 /* AppetizerCell.swift */; };
 		635497BD2742541500AC96A5 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635497BC2742541500AC96A5 /* AppetizerListView.swift */; };
 		635497C02742569A00AC96A5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635497BE2742569400AC96A5 /* LoadingView.swift */; };
+		6359380B2743D28D001ABBEC /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6359380A2743D28D001ABBEC /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		635497BA2742538100AC96A5 /* AppetizerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerCell.swift; sourceTree = "<group>"; };
 		635497BC2742541500AC96A5 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		635497BE2742569400AC96A5 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		6359380A2743D28D001ABBEC /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +93,7 @@
 		635497A82742495100AC96A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				635497BC2742541500AC96A5 /* AppetizerListView.swift */,
+				635938092743CFB0001ABBEC /* AppetizerListView */,
 				635497BA2742538100AC96A5 /* AppetizerCell.swift */,
 				635497BE2742569400AC96A5 /* LoadingView.swift */,
 			);
@@ -115,6 +117,15 @@
 				635497B62742523A00AC96A5 /* AlertItem.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		635938092743CFB0001ABBEC /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				635497BC2742541500AC96A5 /* AppetizerListView.swift */,
+				6359380A2743D28D001ABBEC /* AppetizerListViewModel.swift */,
+			);
+			path = AppetizerListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +199,7 @@
 			files = (
 				635497B72742523A00AC96A5 /* AlertItem.swift in Sources */,
 				6354979C273E36CD00AC96A5 /* ContentView.swift in Sources */,
+				6359380B2743D28D001ABBEC /* AppetizerListViewModel.swift in Sources */,
 				635497B527424F6900AC96A5 /* APError.swift in Sources */,
 				635497C02742569A00AC96A5 /* LoadingView.swift in Sources */,
 				635497AE27424C0600AC96A5 /* Appetizer.swift in Sources */,
